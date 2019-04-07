@@ -1,0 +1,344 @@
+.no-padding {
+    padding: 0;
+}
+
+/* TABLAS */
+
+.tabla-defensa {
+    background-color: #C5C5C5;
+    border-radius: 10px;
+    display: table;
+    padding: 5px;
+    max-width: 738px;
+    width: auto;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.tabla-defensa tr {
+    display: block;
+    padding: 2px;
+}
+
+.medidas-etapas .titulos-tabla th {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 130px;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+.medidas-etapas .titulos-tabla th.last {
+    width: 100px;
+}
+
+.titulos-tabla th::before {
+    content: url(../img/flecha-abajo.png);
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.tabla-defensa td {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    margin: 2px;
+}
+
+.tabla-defensa td.last {
+    width: 100px;
+}
+
+.titulos-tabla {
+    display: block;
+    padding: 2px;
+}
+
+.titulos-tabla th {
+    position: relative;
+}
+
+.datos td {
+    padding: 5px;
+    color: #fff;
+    height: 80px;
+    line-height: 1.3;
+}
+
+.datos td.last {
+    width: 100px;
+}
+
+.resumen td {
+    width: 542px;
+    padding: 5px;
+    color: #fff;
+    height: auto;
+    line-height: 1.3;
+    border-bottom-left-radius: 10px;
+}
+
+.global {
+    font-weight: 400 !important;
+}
+
+.total {
+    width: 100px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.medida {
+    background-color: #534741;
+    color: #fff;
+}
+
+.verde {
+    background-color: #00A950;
+}
+
+.amarillo {
+    background-color: #DFA80A;
+
+}
+
+.negro {
+    background-color: #333333;
+    font-weight: 900;
+}
+
+.blanco {
+    background-color: #Fff;
+    color: #000 !important;
+    font-weight: 700;
+}
+
+.gris {
+    background-color: #808080;
+}
+
+.rojo {
+    background-color: #FF0000;
+}
+
+.medidas-res {
+    color: #fff;
+    text-align: center;
+}
+
+.medidas-res td {
+    padding: 5px;
+    text-align: center;
+}
+
+.medidas-res tr {
+    border: 2px solid #c5c5c5;
+}
+
+/*  Graficos */
+.graficos {
+    padding-top: 40px;
+}
+
+.graficos h6 {
+    font-family: 'gobclregular';
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    height: auto;
+}
+.graficos h6.last {
+    font-family: 'gobclheavy';
+}
+.graficos p {
+    font-family: 'gobcllight';
+    margin-top: 15px;
+    text-align: justify;
+}
+.graficos hr {
+    margin: 50px 0;
+    border-top: 1px solid #4D4D4D;
+}
+
+#graph1,
+#graph2,
+#graph3 {
+    transform: scale(0.9);
+}
+
+#graph4 {
+    transform: scale(1.1);
+}
+
+/* Menu Interior */
+
+.menu-interior {
+    position: relative;
+    max-width: 1140px;
+}
+
+.menu-interior .nav-link,
+.navbar-brand {
+    color: #fFf !important;
+    text-decoration: none !important;
+}
+
+.menu-interior figure {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 550px;
+    height: auto;
+    max-width: 1200px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.menu-interior .navbar-nav {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 1);
+    padding-right: 15px;
+    width: 290px;
+    z-index: 9999;
+    position: relative;
+}
+
+.menu-interior .dropdown-menu {
+    background-color: rgba(0, 0, 0, 1) !important;
+    position: relative;
+    right: -5px;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0;
+}
+
+.menu-interior .dropdown-item {
+    color: #fff;
+    text-align: right;
+    white-space: normal;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.lista-interior {
+    float: right;
+    color: #fff;
+}
+.listado-sub a{
+color: white !important;
+	
+}
+.lista-interior li {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+.banner-principal .titulo h1 {
+    font-family: 'gobcl';
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+    bottom: 60px;
+    display: inline-block;
+}
+.banner-principal .titulo h1 sup {
+    font-family: 'gobclregular';
+    display: block;
+}
+
+.banner-principal .fecha h3 {
+    font-family: 'gobcllight';
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: inline-block;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    .menu-interior .navbar-nav {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-interior .navbar-nav {
+        width: 600px;
+    }
+    .graficos h6 {
+    height: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .menu-interior .navbar-nav {
+        width: auto;
+        background-color: transparent;
+        padding-right: 0;
+    }
+
+    .tabla-defensa {
+        max-width: 930px;
+    }
+
+    .menu-interior .dropdown-menu {
+        width: max-content;
+    }
+
+    .medidas-etapas .titulos-tabla th {
+        width: 190px;
+    }
+
+    .tabla-defensa td {
+        width: 190px;
+    }
+
+    .resumen td {
+        width: 782px !important;
+    }
+
+    .resumen .total {
+        width: 100px !important;
+    }
+    .graficos h6 {
+    height: 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tabla-defensa {
+        max-width: 1140px;
+    }
+
+    .medidas-etapas .titulos-tabla th {
+        width: 235px;
+    }
+
+    .tabla-defensa td {
+        width: 235px;
+    }
+
+    .resumen td {
+        width: 962px !important;
+    }
+
+    .resumen .total {
+        width: 100px !important;
+    }
+}
